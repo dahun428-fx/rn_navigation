@@ -3,7 +3,7 @@ import {RootStackParamList} from './types';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import DetailScreen from './DetailScreen';
-import {MainTab} from '../MainTab';
+import {MainTab} from '../MainTab2';
 
 export default function MainScreen() {
   const Stack = createNativeStackNavigator<RootStackParamList>();
